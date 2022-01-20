@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../Image/logo1.png"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"> </i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="About.html">ABOUT</a> </li>
+                    <li> <a href="Product.html">PRODUCTS</a> </li>
+                    <li> <a href="Account.html">ACCOUNTS</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"> </i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Clothings, Accessories and Electronic Items</h1>
+        </div>
+    </section>
+
+
+
+    <!-- Product page content -->
+
+    <section class="product-content">
+        <div class="product-left">
+            <img src="../Image/buy.jpg">
+            <h2>Clothings, Accessories and Electronic Items</h2>
+            <p>link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"</p>
+            <br>
+            <p>link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"</p>
+            <br>
+            <p>link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"</p>
+            <br>
+            <p>link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"</p>
+            <br>
+            <p>link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"</p>
+            <br>
+            <p>link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"</p>
+
+            <div class="comment-box">
+                <h3>Leave a review about us</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Review"></textarea>
+                    <button type="submit" class="hero-btn red-btn">SUBMIT REVIEW</button>
+                </form>
+            </div>
+        </div>
+        <div class="product-right">
+            <h3> Post Categories </h3>
+            <div>
+                <span>T-shirts</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Shirts</span>
+                <span>07</span>
+            </div>
+            <div>
+                <span>Hoods</span>
+                <span>08</span>
+            </div>
+            <div>
+                <span>Jeans</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Jackets</span>
+                <span>04</span>
+            </div>
+            <div>
+                <span>Shoe</span>
+                <span>04</span>
+            </div>
+            <div>
+                <span>Sneakers</span>
+                <span>03</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4> About Me</h4>
+        <p> I am a Vlogger</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100009301110713" target="_blank"> <i class="fa fa-facebook"></i> </a>
+            <a href="https://www.linkedin.com/in/abhishek-verma-060a391ab/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+            <a href=" "> <i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/__alexx.v_/" target="_blank"> <i class="fa fa-instagram"></i></a>
+        </div>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            // body...
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
